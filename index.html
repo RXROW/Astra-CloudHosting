@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <title>Cloud Hosing </title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>  
+
+
+<div class="Hero">
+  <style>
+    .hero-section {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: url('./image/CH1.jpg') no-repeat center center;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .hero-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+        z-index: 1;
+    }
+    .hero-content {
+        position: relative;
+        z-index: 2; /* Ensure content is above the overlay */
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .hero-heading {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .hero-text {
+        font-size: 1.25rem;
+        margin-bottom: 30px;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        font-size: 1.25rem;
+        padding: 15px 30px;
+        border-radius: 5px;
+        color: white; /* Ensure the button text is readable */
+    }
+</style>
+  <section class="hero-section">
+    <div class="hero-content">
+        <h1 class="hero-heading">Welcome to <span class="text-info bg-dark ">Asrta</span>  Cloud Hosting</h1>
+        <p class="hero-text">
+            Experience the ultimate in performance and reliability with Betfal's cloud hosting solutions. Scalable, secure, and easy to manage—everything you need to power your online presence.
+        </p>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+    </div>
+</section>
+</div>
+
+
+  <div class="about">
+    <style>
+      .about-section {
+          padding: 60px 0;
+          background-color: #f8f9fa;
+      }
+      .about-img {
+          max-width: 100%;
+          border-radius: 10px;
+      }
+      .about-content {
+          padding: 20px;
+      }
+      .about-heading {
+          font-size: 2rem;
+          font-weight: 500;
+          margin-bottom: 20px;
+      }
+      .about-text {
+          font-size: 1rem;
+          color: #6c757d;
+          margin-bottom: 20px;
+      }
+      .about-list {
+          list-style-type: none;
+          padding: 0;
+      }
+      .about-list-item {
+          margin-bottom: 10px;
+      }
+      .about-list-item::before {
+          content: "✔";
+          color: #007bff;
+          margin-right: 10px;
+      }
+  </style>
+    <section class="about-section">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-md-6 mb-4 mb-md-0">
+                  <img src="https://via.placeholder.com/500x300" alt="About Us" class="about-img">
+              </div>
+              <div class="col-md-6">
+                  <div class="about-content">
+                      <h2 class="about-heading">About Us</h2>
+                      <p class="about-text">
+                          We are a leading provider of innovative cloud hosting solutions, dedicated to delivering reliable and scalable services to businesses of all sizes. Our mission is to help you leverage the power of the cloud to achieve your goals and drive success.
+                      </p>
+                      <ul class="about-list">
+                          <li class="about-list-item">Expert Team with Years of Experience</li>
+                          <li class="about-list-item">State-of-the-Art Data Centers</li>
+                          <li class="about-list-item">24/7 Customer Support</li>
+                          <li class="about-list-item">Flexible and Scalable Solutions</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  </div>
+  
+  <div class="featerus mt-5">
+  <section class="features-section">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h2 class="mb-4">Our Cloud Hosting Features</h2>
+                <p class="lead">Discover the powerful features that make our cloud hosting service the best choice for your business.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Feature 1">
+                    <div class="card-body feature-card-body">
+                        <h5 class="card-title feature-card-title">Feature One</h5>
+                        <p class="card-text feature-card-text">Description of the first feature that highlights its benefits and key points.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Feature 2">
+                    <div class="card-body feature-card-body">
+                        <h5 class="card-title feature-card-title">Feature Two</h5>
+                        <p class="card-text feature-card-text">Description of the second feature with emphasis on its advantages and uses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Feature 3">
+                    <div class="card-body feature-card-body">
+                        <h5 class="card-title feature-card-title">Feature Three</h5>
+                        <p class="card-text feature-card-text">Description of the third feature and what makes it stand out in the market.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<div class="featerus mt-5">
+  <section class="features-section">
+    <div class="container">
+        <div class="row text-center">
+             
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Feature 1">
+                    <div class="card-body feature-card-body">
+                        <h5 class="card-title feature-card-title">Feature One</h5>
+                        <p class="card-text feature-card-text">Description of the first feature that highlights its benefits and key points.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Feature 2">
+                    <div class="card-body feature-card-body">
+                        <h5 class="card-title feature-card-title">Feature Two</h5>
+                        <p class="card-text feature-card-text">Description of the second feature with emphasis on its advantages and uses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Feature 3">
+                    <div class="card-body feature-card-body">
+                        <h5 class="card-title feature-card-title">Feature Three</h5>
+                        <p class="card-text feature-card-text">Description of the third feature and what makes it stand out in the market.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<div class="featerus mt-5">
+  <section class="features-section">
+    <div class="container">
+        <div class="row text-center">
+             
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Feature 1">
+                    <div class="card-body feature-card-body">
+                        <h5 class="card-title feature-card-title">Feature One</h5>
+                        <p class="card-text feature-card-text">Description of the first feature that highlights its benefits and key points.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Feature 2">
+                    <div class="card-body feature-card-body">
+                        <h5 class="card-title feature-card-title">Feature Two</h5>
+                        <p class="card-text feature-card-text">Description of the second feature with emphasis on its advantages and uses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Feature 3">
+                    <div class="card-body feature-card-body">
+                        <h5 class="card-title feature-card-title">Feature Three</h5>
+                        <p class="card-text feature-card-text">Description of the third feature and what makes it stand out in the market.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<div class="pricing">
+  <style>
+    .pricing-section {
+        padding: 60px 0;
+        background-color: #f8f9fa;
+    }
+    .pricing-card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .pricing-card-header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        border-bottom: 1px solid #e0e0e0;
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .pricing-card-body {
+        padding: 20px;
+        text-align: center;
+    }
+    .pricing-card-footer {
+        padding: 20px;
+        text-align: center;
+    }
+    .pricing-card-title {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .pricing-card-price {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .pricing-card-text {
+        font-size: 1rem;
+        color: #6c757d;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+    }
+</style>
+  <section class="pricing-section">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-md-12">
+                <h2 class="mb-4">Our Pricing Plans</h2>
+                <p class="lead">Choose the plan that best suits your needs and get started with our cloud hosting services.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card pricing-card">
+                    <div class="card-header pricing-card-header">
+                        <h5 class="pricing-card-title">Basic Plan</h5>
+                    </div>
+                    <div class="card-body pricing-card-body">
+                        <h3 class="pricing-card-price">$9.99</h3>
+                        <p class="pricing-card-text">Per month</p>
+                        <ul class="list-unstyled">
+                            <li>1 GB Storage</li>
+                            <li>10 GB Bandwidth</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer pricing-card-footer">
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card pricing-card">
+                    <div class="card-header pricing-card-header">
+                        <h5 class="pricing-card-title">Standard Plan</h5>
+                    </div>
+                    <div class="card-body pricing-card-body">
+                        <h3 class="pricing-card-price">$19.99</h3>
+                        <p class="pricing-card-text">Per month</p>
+                        <ul class="list-unstyled">
+                            <li>5 GB Storage</li>
+                            <li>50 GB Bandwidth</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer pricing-card-footer">
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card pricing-card">
+                    <div class="card-header pricing-card-header">
+                        <h5 class="pricing-card-title">Premium Plan</h5>
+                    </div>
+                    <div class="card-body pricing-card-body">
+                        <h3 class="pricing-card-price">$39.99</h3>
+                        <p class="pricing-card-text">Per month</p>
+                        <ul class="list-unstyled">
+                            <li>10 GB Storage</li>
+                            <li>100 GB Bandwidth</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer pricing-card-footer">
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="contact_Us">
+  <style>
+    .contact-section {
+        padding: 60px 0;
+        background-color: #f8f9fa;
+    }
+    .contact-form {
+        border-radius: 10px;
+ border: 1px solid #007bff;
+        padding: 30px;
+        background-color: white;
+    }
+    .contact-heading {
+ 
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .contact-info {
+        margin-top: 30px;
+    }
+    .contact-info-item {
+        margin-bottom: 15px;
+    }
+    .contact-info-item i {
+        color: #007bff;
+        margin-right: 10px;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+    }
+</style>
+  <section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col mb-4 mb-md-0">
+                <div class="contact-form">
+                    <h2 class="contact-heading">Contact Us</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="contact-info">
+                    <h2 class="contact-heading">Our Contact Information</h2>
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Main Street, Anytown, USA</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+1 (123) 456-7890</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@example.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<div class="footer">
+  <style>
+    .footer {
+        background-color: #343a40;
+        color: white;
+        padding: 2px 0;
+    }
+   
+</style>
+<footer class="footer text-center">
+  <div class="container">
+ 
+     
+     
+      <p class="mt-4">&copy; 2024   Cloud Hosting. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
